@@ -24,7 +24,7 @@ namespace KeystrokesByQByte64
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        Type pageType;
+        private NavigationViewItem selectedNavItem;
         public MainWindow()
         {
             //Intialize window and change TitleBar's and Extend its content to the title bar
@@ -34,10 +34,10 @@ namespace KeystrokesByQByte64
         }
         private void navViewChanged(NavigationView sender, NavigationEventArgs e)
         {
-            switch (sender.Tag)
+            switch (selectedNavItem.Name)
             {
                 case "KeybindsMenu":
-                    //pagetype = typeof(//o coiso ali);
+                    
                     break;
             }
         }
