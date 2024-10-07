@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KeystrokesByQByte64 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "KeystrokesByQByte64 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
