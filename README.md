@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/BlueByte64/CoolKeystrokes/blob/main/Assets/AppIcon.png" width="250"> <p float="center">An nice keystrokes app i made</p>
+  <img src="https://github.com/BlueByte64/CoolKeystrokes/blob/master/Assets/AppIcon.png" width="250"> <p float="center">An nice keystrokes app i made</p>
 </h1>
 
 
