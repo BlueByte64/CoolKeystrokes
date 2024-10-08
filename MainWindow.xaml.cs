@@ -35,7 +35,7 @@ namespace KeystrokesByQByte64
         private void navViewChanged(NavigationView sender, NavigationEventArgs e)
         {
             selectedNavItem = sender.SelectedItem as NavigationViewItem;
-            switch (selectedNavItem.Name)
+            switch (selectedNavItem.Tag)
             {
                 case "KeybindsMenu":
                     

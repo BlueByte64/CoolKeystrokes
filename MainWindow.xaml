@@ -23,6 +23,8 @@
         <NavigationView x:Name="Navigation" IsSettingsVisible="False">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Keyboard" Content="Keys" Tag="KeybindsMenu" />
+                <NavigationViewItem Icon="Filter" Content="Color" Tag="ColorsMenu" />
+                <NavigationViewItem Icon="Flag" Content="Integrations" Tag="GameIntegrationsMenu" />
             </NavigationView.MenuItems>
             <NavigationView.FooterMenuItems>
                 <NavigationViewItem Icon="Contact" Content="Credits" Tag="CreditsMenu" />

@@ -14,6 +14,12 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Source - Cópia\**" />
+    <EmbeddedResource Remove="Source - Cópia\**" />
+    <None Remove="Source - Cópia\**" />
+    <Page Remove="Source - Cópia\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png">
@@ -89,6 +95,21 @@
     <None Update="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Source\Menus\Colors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Source\Menus\Credits.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Source\Menus\Integrations.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Source\Menus\Keys.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Source\Menus\Welcoming.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <WebView2UseWinRT>False</WebView2UseWinRT>
@@ -145,5 +166,18 @@
     <Page Update="MainWindow.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Remove="Source - Cópia\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Remove="source\menus\Colors.xaml" />
+    <Page Remove="source\menus\Credits.xaml" />
+    <Page Remove="source\menus\Integrations.xaml" />
+    <Page Remove="source\menus\Keys.xaml" />
+    <Page Remove="source\menus\Welcoming.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source\Menus\" />
   </ItemGroup>
 </Project>
