@@ -13,11 +13,12 @@ This github repository was created so you can suggest new stuff or idk..
 Like, integration with other games and etc.
 <br>
 <br>
+**What is a Keystrokes program?** <br>
+Its a program that displays on your screen your current input, like keys and mouse buttons. This is useful for some people and for some gamers (or idk). <br>
+<br>
+<br>
 **How do i install it?** <br>
 Just download and extract the .rar file <br>
-<br>
-**What is x64 and ARM64?** <br>
-They're both cpu architectures, you have to download the .rar file corresponding to your cpu architecture, if you dont know whats yours, check it on windows settings/ System/ About System <br>
 <br>
 **How do i use it?** <br>
 Don't worry, the User Interface is very user friendly, you should figure it out without much difficulty. <br>

@@ -113,7 +113,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <WebView2UseWinRT>False</WebView2UseWinRT>
-    <SupportedOSPlatformVersion>10.0.26100.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
     <Description>Just a keystrokes app developed by QByte64
 (Its open source btw, cuz, why not?)</Description>
     <WebView2EnableCsWinRTProjection>True</WebView2EnableCsWinRTProjection>
