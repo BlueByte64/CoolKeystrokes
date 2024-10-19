@@ -31,5 +31,8 @@
             </NavigationView.FooterMenuItems>
             <Frame x:Name="contentFrame"/>
         </NavigationView>
+        <Grid Name="MenuContent">
+            <TextBlock FontWeight="ExtraBold" Name="WelcomeText" VerticalAlignment="Center" HorizontalAlignment="Center">Welcome to Cool Keystrokes app!</TextBlock>
+        </Grid>
     </Grid>
 </Window>
