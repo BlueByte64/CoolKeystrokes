@@ -78,6 +78,10 @@
     <None Update="app.manifest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Assets\AppIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -110,6 +114,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Title>CoolKeystrokes</Title>
     <WindowsPackageType>MSIX</WindowsPackageType>
+    <PackageIcon>AppIcon.png</PackageIcon>
   </PropertyGroup>
 
   <!--
