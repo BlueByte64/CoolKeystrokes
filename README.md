@@ -30,7 +30,7 @@ Don't worry, the User Interface is very user friendly, you should figure it out 
 No preview video for now cuz im still developing it
 <br>
 <br>
-The only official place to download the program is on github
+<b>The only official place to download the program is on github</b>
 <br>
 <br>
 Enjoy!
