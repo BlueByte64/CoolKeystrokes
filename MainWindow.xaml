@@ -20,7 +20,7 @@
             <TextBlock FontWeight="Bold">Cool Keystrokes</TextBlock>
         </StackPanel>
         <!--Navigation-->
-        <NavigationView x:Name="Navigation" IsSettingsVisible="False">
+        <NavigationView x:Name="Navigation" SelectionChanged="navChanged">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Keyboard" Content="Keys" Tag="KeybindsMenu" />
                 <NavigationViewItem Icon="Filter" Content="Color" Tag="ColorsMenu" />

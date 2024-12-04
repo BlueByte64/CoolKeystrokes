@@ -33,14 +33,11 @@ namespace KeystrokesByQByte64
             ExtendsContentIntoTitleBar = true;
             this.Title = "Cool Keystrokes";
         }
-        private void navViewChanged(NavigationView sender, NavigationEventArgs e)
+        private void navChanged(NavigationView sender, NavigationEventArgs e)
         {
-            selectedNavItem = sender.SelectedItem as NavigationViewItem;
-            switch (selectedNavItem.Tag)
-            {
-                case "KeybindsMenu":
-                    
-                    break;
+            var selectedNavItem = Navigation.SelectedItem;
+            switch (selectedNavItem) { 
+                
             }
         }
     }
