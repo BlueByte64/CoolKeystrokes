@@ -10,6 +10,7 @@
 **4.** Integration with Osu! lazer(Coming soon) <br>
 **5.** Lua script/plugins support(Coming soon) **NOTE: BE SURE THE SCRIPT IS SAFE TO RUN, PLUGINS ARE NOT PROVIDED BY THE PROGRAM'S DEVELOPER(QByte)**
 
+Please, help make the program better by reporting problems
 <br>
 <br>
 **What is a Keystrokes program?** <br>
