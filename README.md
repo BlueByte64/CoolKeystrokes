@@ -8,7 +8,7 @@
 **2.** Put it anywhere you want on your screen(so it wont bother you) <br>
 **3.** Customizable colors <br>
 **4.** Integration with Osu! lazer(Coming soon) <br>
-**5.** Lua script/plugins support(Coming soon) **NOTE: BE SURE THE SCRIPT IS SAFE TO RUN, PLUGINS ARE NOT PROVIDED BY THE PROGRAM'S DEVELOPER(QByte)**
+**5.** Lua script/plugins support(Coming soon) **NOTE: BE SURE THE SCRIPT IS SAFE TO RUN**
 
 Please, help make the program better by reporting problems
 <br>
