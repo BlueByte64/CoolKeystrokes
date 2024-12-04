@@ -27,7 +27,7 @@ Don't worry, the User Interface is very user friendly, you should figure it out 
 > This app **won't** be available for Linux or MacOS, it'll only work on Windows(10 22h2 and forward). <br>
 >Also, the **recommended** Windows version is 11 24h2+
 <br>
-No Video preview for now cuz im still developing it
+No preview video for now cuz im still developing it
 <br>
 <br>
 <br>
