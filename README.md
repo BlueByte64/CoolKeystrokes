@@ -24,7 +24,7 @@ Just download and extract the .rar file <br>
 Don't worry, the User Interface is very user friendly, you should figure it out without much difficulty. <br>
 <br>
 >[!IMPORTANT]
-> This app **won't** be available for Linux or MacOS, it'll only work on Windows(10 22h2 and forward). <br>
+> This program **cannot** be ported to linux or macOS due to windows's UI framework, it'll only work on Windows(10 22h2 and forward). <br>
 >Also, the **recommended** Windows version is 11 24h2+
 <br>
 No preview video for now cuz im still developing it
