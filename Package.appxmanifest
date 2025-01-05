@@ -9,20 +9,20 @@
 
   <Identity
     Name="5cc3df52-5173-4668-8a93-4b1cded9671f"
-    Publisher="CN=bugad"
+    Publisher="CN=QByte"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="5cc3df52-5173-4668-8a93-4b1cded9671f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>KeystrokesByQByte64</DisplayName>
-    <PublisherDisplayName>bugad</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <DisplayName>CoolKeystrokes</DisplayName>
+    <PublisherDisplayName>QByte</PublisherDisplayName>
+    <Logo>Assets\AppIcon.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="110.0.26100.1742" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.1742" />
   </Dependencies>
 
   <Resources>
@@ -34,12 +34,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="KeystrokesByQByte64"
-        Description="KeystrokesByQByte64"
+        DisplayName="CoolKeystrokes"
+        Description="A cool keystrokes program"
         BackgroundColor="transparent"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        Square150x150Logo="Assets\AppIcon.png"
+        Square44x44Logo="Assets\AppIcon.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppIcon.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
