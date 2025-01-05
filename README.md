@@ -24,7 +24,7 @@ Just download and extract the .rar file <br>
 Don't worry, the User Interface is very user friendly, you should figure it out without much difficulty. <br>
 <br>
 >[!IMPORTANT]
-> This program only works on Windows and <b>WILL NOT<b> come to macOS or linux systems, for that the whole program would need to be re-written, <br>so dont ask for a port.
+> This program only works on Windows and WILL NOT come to macOS or linux systems, for that the whole program would need to be re-written, <br>so dont ask for a port.
 <br>
 No preview video for now cuz im still developing it
 <br>
