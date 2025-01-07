@@ -17,8 +17,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Source - Cópia\**" />
+    <Compile Remove="Source\**" />
     <EmbeddedResource Remove="Source - Cópia\**" />
+    <EmbeddedResource Remove="Source\**" />
     <None Remove="Source - Cópia\**" />
+    <None Remove="Source\**" />
     <Page Remove="Source - Cópia\**" />
   </ItemGroup>
 
@@ -68,7 +71,7 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Update="Source\App.xaml">
+    <ApplicationDefinition Update="App.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ApplicationDefinition>
   </ItemGroup>
@@ -152,14 +155,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Source\Menus\MainWindow.xaml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
     <PRIResource Remove="Source - Cópia\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Source\Menus\" />
   </ItemGroup>
 </Project>
