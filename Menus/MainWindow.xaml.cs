@@ -34,11 +34,13 @@ namespace KeystrokesByQByte64.Menus
             ExtendsContentIntoTitleBar = true;
             this.Title = "Cool Keystrokes";
         }
-        private void navChanged(NavigationView sender, NavigationEventArgs e)
+        private void navItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs e)
         {
-            var selectedNavItem = Navigation.SelectedItem;
-            switch (selectedNavItem) { 
-                
+            var selectedNavItem = sender.SelectedItem as NavigationViewItem;
+            switch (selectedNavItem.Content) { 
+                case "Keys":
+                    contentFrame.Navigate(typeof(Pages.KeysPage));
+                    break;
             }
         }
     }

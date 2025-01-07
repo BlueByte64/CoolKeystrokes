@@ -16,11 +16,10 @@
     <Grid>
         <!--TitleBar-->
         <StackPanel Name="TitleBar" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Image Source="/Assets/AppIcon.png" Height="20"/>
             <TextBlock FontWeight="Bold">Cool Keystrokes</TextBlock>
         </StackPanel>
         <!--Navigation-->
-        <NavigationView x:Name="Navigation">
+        <NavigationView x:Name="Navigation" ItemInvoked="navItemInvoked">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Keyboard" Content="Keys" Tag="KeybindsMenu" />
                 <NavigationViewItem Icon="Filter" Content="Color" Tag="ColorsMenu" />

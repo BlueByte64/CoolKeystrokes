@@ -92,6 +92,9 @@
     <None Update="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Page Update="Menus\Pages\KeysPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <None Update="Properties\launchSettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -156,5 +159,8 @@
   </ItemGroup>
   <ItemGroup>
     <PRIResource Remove="Source - Cópia\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Menus\Pages\KeysPage.xaml" />
   </ItemGroup>
 </Project>
