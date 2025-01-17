@@ -8,7 +8,7 @@ Its a program that displays on your screen your current input, like keys and mou
 <h3>What makes it cool?</h3>
 <b>YOU.</b> you're the one who use and customize it<br>
 <h3>How to install</h3>
-Just download and double click the .msi file <br>
+Just download and double click the .msi file
 <br>
 <h3>How do i use it?</h3>
 You create overlays on the Keys Menu and assign a key to it, then you customize it however you like.
