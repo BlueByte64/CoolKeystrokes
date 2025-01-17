@@ -34,7 +34,7 @@ namespace KeystrokesByQByte64.Menus
             ExtendsContentIntoTitleBar = true;
             this.Title = "Cool Keystrokes";
         }
-        private void navItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs e)
+        private void navItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {
             var selectedNavItem = sender.SelectedItem as NavigationViewItem;
             switch (selectedNavItem.Content) { 

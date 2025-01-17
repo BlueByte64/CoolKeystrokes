@@ -14,12 +14,8 @@
 
     <!--Window content-->
     <Grid>
-        <!--TitleBar-->
-        <StackPanel Name="TitleBar" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBlock FontWeight="Bold">Cool Keystrokes</TextBlock>
-        </StackPanel>
         <!--Navigation-->
-        <NavigationView x:Name="Navigation" ItemInvoked="navItemInvoked">
+        <NavigationView x:Name="Navigation" ItemInvoked="navItemInvoked" PaneTitle="CoolKeystrokes" IsBackButtonVisible="Collapsed">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Keyboard" Content="Keys" Tag="KeybindsMenu" />
                 <NavigationViewItem Icon="Filter" Content="Color" Tag="ColorsMenu" />
@@ -28,10 +24,9 @@
             <NavigationView.FooterMenuItems>
                 <NavigationViewItem Icon="Contact" Content="Credits" Tag="CreditsMenu" />
             </NavigationView.FooterMenuItems>
-            <Frame x:Name="contentFrame"/>
+            <ScrollViewer Grid.Row="1" Padding="16">
+                <Frame x:Name="contentFrame"/>
+            </ScrollViewer>
         </NavigationView>
-        <Grid Name="MenuContent">
-            <TextBlock FontWeight="ExtraBold" Name="WelcomeText" VerticalAlignment="Center" HorizontalAlignment="Center">Welcome to Cool Keystrokes app!</TextBlock>
-        </Grid>
     </Grid>
 </Window>

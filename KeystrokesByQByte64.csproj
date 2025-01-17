@@ -163,4 +163,7 @@
   <ItemGroup>
     <None Remove="Menus\Pages\KeysPage.xaml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Menus\Windows\" />
+  </ItemGroup>
 </Project>

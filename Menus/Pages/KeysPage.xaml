@@ -9,6 +9,6 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock FontWeight="Extrabold" HorizontalAlignment="Left" Height="500">Keys settings</TextBlock>
+        <TextBlock FontWeight="Extrabold" HorizontalAlignment="Left" MinHeight="600" MaxHeight="725" FontSize="32">Keys settings</TextBlock>
     </Grid>
 </Page>
