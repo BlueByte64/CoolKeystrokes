@@ -92,6 +92,9 @@
     <None Update="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Page Update="Menus\Pages\Welcome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Menus\Pages\KeysPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Menus\Pages\KeysPage.xaml" />
+    <None Remove="Menus\Pages\Welcome.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Menus\Windows\" />

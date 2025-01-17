@@ -33,6 +33,7 @@ namespace KeystrokesByQByte64.Menus
             this.InitializeComponent();
             ExtendsContentIntoTitleBar = true;
             this.Title = "Cool Keystrokes";
+            contentFrame.Navigate(typeof(Pages.Welcome));
         }
         private void navItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {

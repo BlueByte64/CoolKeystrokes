@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page
-    x:Class="KeystrokesByQByte64.Menus.Pages.KeysPage"
+    x:Class="KeystrokesByQByte64.Menus.Pages.Welcome"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:KeystrokesByQByte64.Menus.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    
     <Grid>
-        <TextBlock FontWeight="Extrabold" HorizontalAlignment="Left" MinHeight="600" MaxHeight="725" FontSize="32">Keys settings</TextBlock>
-        
+        <TextBlock x:Name="WelcomeText" FontWeight="Extrabold" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">Welcome to CoolKeystrokes!</TextBlock>
     </Grid>
 </Page>
