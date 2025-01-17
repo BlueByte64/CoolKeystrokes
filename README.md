@@ -2,16 +2,11 @@
   <img src="https://github.com/BlueByte64/CoolKeystrokes/blob/master/Assets/AppIcon.png" width="250"> <p float="center">Keystrokes App :)</p>
 </h1>
 
-
-<h3>What makes it cool?</h3>
-<b>1.</b> Nice UI <br>
-<b>2.</b> Put it anywhere you want on your screen(so it wont bother you) <br>
-<b>3.</b> Customizable colors <br>
-
 <br>
 <h3>What is a Keystrokes program?</h3>
 Its a program that displays on your screen your current input, like keys and mouse buttons. This is useful for some people and for some gamers (or idk). <br>
-<br>
+<h3>What makes it cool?</h3>
+<b>YOU.</b> you're the one who use and customize it<br>
 <h3>How to install</h3>
 Just download and double click the .msi file <br>
 <br>
