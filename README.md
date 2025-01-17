@@ -24,4 +24,5 @@ No preview video for now cuz im still developing it
 <br>
 <b>The only official place to download the program is on github</b>
 <br>
+<br>
 Enjoy!
