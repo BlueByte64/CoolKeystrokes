@@ -5,8 +5,8 @@
 <br>
 <h3>What is a Keystrokes program?</h3>
 Its a program that displays on your screen your current input, like keys and mouse buttons. This is useful for competitive gamers and streamers/ youtubers. <br>
-<h3>What makes it cool?</h3>
-<b>YOU.</b> you're the one who use and customize it<br>
+<h2>You're the one who makes it cool</h2>
+The customization options and program functionalities wont leave you hanging<br>
 <h3>How to install</h3>
 Just download and double click the .msi file
 <br>
