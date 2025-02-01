@@ -91,6 +91,8 @@
     </None>
     <None Update="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
     <Page Update="Menus\Pages\Welcome.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -119,8 +121,8 @@
   <PropertyGroup Label="Globals">
     <WebView2UseWinRT>False</WebView2UseWinRT>
     <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
-    <Description>Just a keystrokes app developed by QByte64
-(Its open source btw, cuz, why not?)</Description>
+    <Description>Keystrokes program for competitive 
+players/ streamers and youtubers</Description>
     <WebView2EnableCsWinRTProjection>True</WebView2EnableCsWinRTProjection>
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>
     <RepositoryUrl>https://github.com/BlueByte64/CoolKeystrokes</RepositoryUrl>
@@ -128,6 +130,9 @@
     <Title>CoolKeystrokes</Title>
     <WindowsPackageType>MSIX</WindowsPackageType>
     <PackageIcon>Assets\AppIcon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Keystrokes ; Keystrokes for Windows ; CoolKeystrokes ; KeystrokesByQByte64 ; Keystrokes program</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <!--
