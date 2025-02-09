@@ -10,8 +10,13 @@ namespace KeystrokesByQByte64.InfoHandling
     internal class JsonHandler
     {
         class JsonStructure{
-            
+           //List<Key> Keys { get; set; } = new();
         }
+    }
+    file class Key{ 
+        string? customText { get; set; }
+        string? hexColor { get; set; }
+        string? key { get; set; }
     }
 }
 
